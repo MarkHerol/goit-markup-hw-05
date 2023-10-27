@@ -1,0 +1,457 @@
+:root{
+    --NAVY-BLUE: #2E2F42;
+    --IRIS: #4D5AE5;
+    --WHITE: #FFF;
+    --CORNFLOWER: #E7E9FC;
+    --CLOUD: #F4F4FD;
+    --GREY: #2E2F42;
+    --SLATE: #434455;
+    --LIGHTSLATE:#8E8F99;
+    --OCEAN: #404BBF;
+}
+
+/*------------------------------------------*/
+
+/*Header*/
+
+/*Logo*/
+.flex-container{
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    width: 1440px;
+    height: 72px;
+}
+
+.my-studio{
+    color:#4d5ae5;
+} 
+
+.header-link{
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase; 
+    margin-left: 156px;
+    margin-right: 76px; 
+}
+
+/*------------------------------------------*/
+
+/*menu*/
+.menu-link{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.menu{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-right: 332px;
+}
+
+/*------------------------------------------*/
+
+/*contact*/
+.contacts{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.contacts{
+   display: flex;
+   gap: 40px;
+}
+
+
+/*------------------------------------------*/
+
+/* list style global*/
+.all{
+    width: 1440px;
+    height: 3200px;
+}
+a{
+    text-decoration: none;
+    color:#2e2f42;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+ul{
+    padding-left: 0%;
+}
+
+/*------------------------------------------*/
+
+/*hero section*/
+.hero{
+    background: linear-gradient( rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url("../images/people-office.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+}
+.hero{
+    text-decoration: none;
+    color:#fff;
+}
+
+.effective-solutions{
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+}
+
+/*------------------------------------------*/
+
+/*button*/
+.my-btn{
+    background-color:var(--IRIS, #4D5AE5)  
+}
+.my-btn{
+    text-decoration: none;
+    color:#fff; 
+}
+.my-btn:hover{
+    cursor: pointer;
+    background-color: #2e2f42;
+}
+.my-btn{
+    display: inline-flex;
+    align-items: center;
+    border-radius: 4px;
+    padding:16px 32px;
+    font-size:16px;
+    gap: 10px;
+}
+
+
+/*------------------------------------------*/
+
+/*BODY*/
+/*benifit*/
+.benefit-1{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.benefit-1{
+    display: flex;
+    justify-content:center;
+    align-items: inherit;
+    gap: 40px;
+}
+.antenna,
+.clock,
+.diagram,
+.astronaut{
+    border-radius: 4px;
+    background: var(--CLOUD, #F4F4FD);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/*device*/
+h2{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.device{
+    text-align: left;
+    padding-top: 100px;
+    background:#FFF;
+}
+.device{
+    display: flex;
+    padding-bottom: 100px;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+
+/*------------------------------------------*/
+
+/*team members*/
+.t-i-s{
+    background: var(--CLOUD, #F4F4FD);
+    padding-top: 120px;
+}
+.teams{
+    font-family: Roboto;
+    background: var(--CLOUD, #F4F4FD);
+}
+.teams{
+    display: flex;
+    padding-top: 72px;
+    padding-bottom: 120px;
+    flex-direction:inherit;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.team-mark,
+.team-tom,
+.team-camilla,
+.team-daniel{
+    padding-bottom: 0px;
+    padding-bottom: 32px;
+    /*Border*/
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.team-socials{
+    display: flex;
+    justify-content: space-around;
+}
+.itfl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--IRIS);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.itfl svg{
+    fill:#FFF;
+}
+
+
+/*------------------------------------------*/
+
+/*customers*/
+.customers{
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    padding-top: 120px;
+}
+.customer-icon{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 72px;
+    padding-bottom: 120px;
+}
+.logo1,
+.logo2,
+.logo3,
+.logo4,
+.logo5,
+.logo6{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8E8F99);
+}
+
+/*------------------------------------------*/
+
+/*Portfolio*/
+.main-body{
+    padding-top: 100px;
+    padding-bottom: 156px;
+    width: 1440px;
+}
+.portfolio-botton{
+    padding-top: 8px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    gap:24px;
+}
+.btn-all,
+.btn-website,
+.btn-app,
+.btn-design,
+.btn-marketing{
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+}
+.btn-all:hover,
+.btn-website:hover,
+.btn-app:hover,
+.btn-design:hover,
+.btn-marketing:hover{
+    cursor: pointer;
+    background: var(--OCEAN, #404BBF);
+}
+.btn-all,
+.btn-website,
+.btn-app,
+.btn-design,
+.btn-marketing{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+}
+.row-1{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.row-3{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+/*------------------------------------------*/
+
+/*FOOTER*/
+.footer{
+    width: 1440px;
+    height: 312px;
+    flex-shrink: 0;
+}
+.footer-section-all{
+    display: flex;
+    padding-top: 100px;
+}
+.section-footer{
+    margin-left: 156px;
+}
+.social-footer{
+    margin-left: 120px;
+}
+
+.itfl-all{
+    display: inline-flex;
+    gap:16px;
+}
+.sm{
+    margin-bottom: 16px;
+}
+.sm{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.footer-text{
+    color: var(--CLOUD, #F4F4FD);
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+.img-text{
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 120% */
+    letter-spacing: 0.4px;
+}
+.p-text{
+    text-align: left;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.logo{
+    text-decoration: none;
+    color: var(NAVY-BLUE);
+}
+.logo{
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px; /* 116.667% */
+    letter-spacing: 0.54px;
+    text-transform: uppercase; 
+}
+
+.logo span{
+    color: var(IRIS);
+}
+footer{
+    background-color:#2e2f42;
+    color:#fff  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
